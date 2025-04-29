@@ -48,3 +48,13 @@ The **Frontend Developer**  focuses in creating interface (UI) of the website, e
 - Updates the README, guides, and API references.
 
 
+### Technology Stack
+- Django: A high-level Python web framework used to build the backend and RESTful APIs of the Airbnb clone.
+
+- MySQL: A relational database used to store user data, property listings, bookings, and other project information.
+
+- GraphQL: A query language for APIs that allows clients to request exactly the data they need, making communication between frontend and backend efficient.
+
+- HTML/CSS: Used to create and style the web pages for the Airbnb clone.
+
+- JavaScript: Adds interactivity to the frontend of the website 
