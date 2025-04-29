@@ -104,3 +104,18 @@ The **Frontend Developer**  focuses in creating interface (UI) of the website, e
 - A Review is written by a User for a Property.
 - A Payment is linked to a Booking.
 
+### Feature Breakdown
+## User Management
+- Users can sign up, log in, and manage their profiles. Hosts can list properties, and guests can book properties. Proper authentication and authorization ensure secure access.
+## Property Management
+- Hosts can create, update, and delete property listings. Each listing includes details such as location, description, pricing, and images to help guests make informed choices.
+## Booking System
+- Guests can search for available properties, select dates, and book their stay. The system ensures that bookings are confirmed, and unavailable dates are blocked automatically.
+## Review System
+- After completing a stay, guests can leave reviews and ratings for properties. This helps maintain quality and trust within the platform.
+## Payment Processing
+- Secure payment integration allows guests to pay for their bookings online. Payments are linked to bookings, ensuring a smooth transaction for both guests and hosts.
+## Search and Filtering
+- Guests can search for properties based on location, price range, property type, and other filters. This helps users quickly find properties that match their preferences.
+## Admin Panel
+An admin interface is provided for staff members to manage users, properties, bookings, and payments efficiently. This ensures smooth operation and maintenance of the platform.
