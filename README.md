@@ -13,3 +13,38 @@ This project is a  clone of Airbnb, designed to practice by Backend development 
 - Javascript
 - MySQL
 
+## Team Roles
+
+### Backend Developer
+The **Backend Developer** is responsible for building the server side logic and ensuring smooth communication between the frontend and the database. They will:
+- Develop APIS
+- Handle authentication and authorization
+- Integrate third-party services
+- OPtimize backend performance
+
+### Frontend Developer
+The **Frontend Developer**  focuses in creating interface (UI) of the website, ensuring a responsive and seamless user experince. They will:
+- Design and implement the website's layout and design.
+- Ensure it works across all devices
+- Implement interactivity with Javascript
+
+### 🛢️ Database Administrator (DBA)
+- Designs and manages the database schema.
+- Ensures data is stored securely and efficiently.
+- Works with tools like MySQL or PostgreSQL.
+
+### 🔍 Quality Assurance (QA) Tester
+- Tests the application for bugs and errors.
+- Ensures features work as expected before deployment.
+- Writes and runs test cases.
+
+### ☁️ DevOps Engineer
+- Sets up the deployment and CI/CD pipeline.
+- Automates development, testing, and deployment.
+- Manages the hosting environment (e.g., Heroku, AWS, or Docker).
+
+### ✍️ Technical Writer
+- Writes clear documentation for users and developers.
+- Updates the README, guides, and API references.
+
+
