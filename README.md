@@ -9,10 +9,12 @@ This project is a  clone of Airbnb, designed to practice by Backend development 
 ## Tech stack
 - Python
 - Django
-- Basic HTML/CSS
-- Javascript
-- MySQL
-
+- Django REST Framework
+- PostgreSQL
+- GraphQl
+- Celery
+- CI/CD
+- Docker
 ## Team Roles
 
 ### Backend Developer
@@ -49,12 +51,14 @@ The **Frontend Developer**  focuses in creating interface (UI) of the website, e
 
 
 ### Technology Stack
-- Django: A high-level Python web framework used to build the backend and RESTful APIs of the Airbnb clone.
-- MySQL: A relational database used to store user data, property listings, bookings, and other project information.
-- GraphQL: A query language for APIs that allows clients to request exactly the data they need, making communication between frontend and backend efficient.
-- HTML/CSS: Used to create and style the web pages for the Airbnb clone.
-- JavaScript: Adds interactivity to the frontend of the website 
-
+- Django: A high-level Python web framework used for building the RESTful API.
+- Django REST Framework: Provides tools for creating and managing RESTful APIs.
+- PostgreSQL: A powerful relational database used for data storage.
+- GraphQL: Allows for flexible and efficient querying of data.
+- Celery: For handling asynchronous tasks such as sending notifications or processing payments.
+- Redis: Used for caching and session management.
+- Docker: Containerization tool for consistent development and deployment environments.
+- CI/CD Pipelines: Automated pipelines for testing and deploying code changes.
 ### Database Design
 ## Key Entities and Fields
 ## User
