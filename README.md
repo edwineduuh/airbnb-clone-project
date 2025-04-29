@@ -118,4 +118,14 @@ The **Frontend Developer**  focuses in creating interface (UI) of the website, e
 ## Search and Filtering
 - Guests can search for properties based on location, price range, property type, and other filters. This helps users quickly find properties that match their preferences.
 ## Admin Panel
-An admin interface is provided for staff members to manage users, properties, bookings, and payments efficiently. This ensures smooth operation and maintenance of the platform.
+- An admin interface is provided for staff members to manage users, properties, bookings, and payments efficiently. This ensures smooth operation and maintenance of the platform.
+  
+### API Security
+## Authentication
+- Authentication ensures that only registered users can access the system. It protects the platform by verifying the identity of users before allowing access to user-specific features like bookings and profile management.
+## Authorization
+- Authorization controls what authenticated users are allowed to do. For example, only hosts can manage properties, and only guests can make bookings. This prevents unauthorized actions and protects sensitive operations.
+## Rate Limiting
+- Rate limiting restricts how many requests a user can make in a given time. It helps prevent abuse, spam, and protects the server from being overwhelmed by too many requests.
+## Data Encryption
+- Data transmitted between the client and server will be encrypted. This ensures that sensitive information like passwords and payment details are protected from attackers.
