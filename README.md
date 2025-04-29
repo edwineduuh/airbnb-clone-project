@@ -129,3 +129,14 @@ The **Frontend Developer**  focuses in creating interface (UI) of the website, e
 - Rate limiting restricts how many requests a user can make in a given time. It helps prevent abuse, spam, and protects the server from being overwhelmed by too many requests.
 ## Data Encryption
 - Data transmitted between the client and server will be encrypted. This ensures that sensitive information like passwords and payment details are protected from attackers.
+
+### CI/CD Pipeline
+## What is CI/CD?
+- Continuous Integration (CI) and Continuous Deployment (CD) are practices that automate the process of integrating code changes into a shared repository and deploying these changes to production. CI ensures that code is tested and integrated regularly, while CD automates the deployment process to make sure updates are delivered efficiently and reliably.
+## Importance for the Project
+- CI/CD pipelines improve development efficiency, reduce manual errors, and ensure that code is always in a deployable state. By automating the build, test, and deployment processes, teams can deliver new features and bug fixes faster, while maintaining high-quality standards.
+## Tools Used for CI/CD
+- GitHub Actions: An automation tool that can help us create workflows to build, test, and deploy the code with each commit.
+- Docker: Used for creating consistent environments for both development and production, ensuring that the code works uniformly across different platforms.
+- Travis CI: An open-source CI/CD service used for automatic testing and deployment of applications.
+
