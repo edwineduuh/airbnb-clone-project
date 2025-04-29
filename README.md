@@ -50,11 +50,57 @@ The **Frontend Developer**  focuses in creating interface (UI) of the website, e
 
 ### Technology Stack
 - Django: A high-level Python web framework used to build the backend and RESTful APIs of the Airbnb clone.
-
 - MySQL: A relational database used to store user data, property listings, bookings, and other project information.
-
 - GraphQL: A query language for APIs that allows clients to request exactly the data they need, making communication between frontend and backend efficient.
-
 - HTML/CSS: Used to create and style the web pages for the Airbnb clone.
-
 - JavaScript: Adds interactivity to the frontend of the website 
+
+### Database Design
+## Key Entities and Fields
+## User
+- id (Primary Key)
+- username
+- email
+- password
+- phone_number
+- role (guest or host)
+
+## Property
+
+- id (Primary Key)
+- title
+- description
+- address
+- price_per_night
+- owner_id (Foreign Key referencing User)
+
+## Booking
+- id (Primary Key)
+- user_id (Foreign Key referencing User)
+- property_id (Foreign Key referencing Property)
+- start_date
+- end_date
+- total_price
+
+## Review
+- id (Primary Key)
+- user_id (Foreign Key referencing User)
+- property_id (Foreign Key referencing Property)
+- rating (e.g., 1-5 stars)
+- comment
+
+## Payment
+- id (Primary Key)
+- booking_id (Foreign Key referencing Booking)
+- payment_date
+- amount
+- payment_method
+
+## Entity Relationships
+- A User can own multiple Properties.
+- A Property belongs to one User (the host).
+- A User can make multiple Bookings.
+- A Booking is linked to one User and one Property.
+- A Review is written by a User for a Property.
+- A Payment is linked to a Booking.
+
